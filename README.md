@@ -114,16 +114,6 @@ npm run dev --prefix client
 
 Each short link has a `clicks` value stored in MongoDB. When someone visits `/:shortCode`, the backend atomically increments that value with MongoDB's `$inc` operator before returning the redirect response. This keeps the count persistent and avoids lost updates from concurrent visits.
 
-## Screenshot
-
-![SnapLink dashboard](docs/screenshot.png)
-
-## Live Demo
-
-- **Frontend:** https://url-shortener-1-7a01.onrender.com
-- **Backend/API:** https://url-shortener-6di2.onrender.com
-- **Complete Application:** https://url-shortener-1-7a01.onrender.com
-
 ## GitHub Repository
 
-- **Repository:** https://github.com/Prakashjha06/url-shortener
+- **Repository:** https://github.com/mayanksri24/LinkKaato-URL-Shortener
